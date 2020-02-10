@@ -1,4 +1,7 @@
-let name = "Dylan";
-let age = 21;
-
-console.log(name + " " + age);
+let a = 0;
+a++
+console.log("counter: " + a);
+a++
+console.log("counter: " + a);
+a++
+console.log("counter: " + a);
