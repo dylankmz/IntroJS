@@ -1,4 +1,4 @@
-let a = 5;
+let name = "Dylan";
+let age = 21;
 
-console.log(a);
-debugger;
+console.log(name + " " + age);
