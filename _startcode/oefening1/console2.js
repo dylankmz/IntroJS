@@ -10,8 +10,11 @@
 // counter: 1001
 // ...
 
-let b = 0;
-let count = b++;
-let a = prompt("Set the counter: " + count)
+function counter() {
+    let input = prompt("Set the counter ");
+    for (let index = 1; index <= input; index++) {
+        console.log(index);
+    }
+}
 
-console.log(a);
+counter();

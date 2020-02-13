@@ -5,11 +5,6 @@
 // counter: 4
 // ...
 
-
-let a = 0;
-a++;
-console.log("counter: " + a);
-a++;
-console.log("counter: " + a);
-a++;
-console.log("counter: " + a);
+for (let a = 0; a < 10;) {
+    console.log(++a);
+}
