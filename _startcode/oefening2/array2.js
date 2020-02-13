@@ -1,8 +1,7 @@
-function chooseFruit() {
-    let input = prompt("Choose you fruit, choose a numer between 0 and 3 ");
-    let arr = ["banana", "apples", "pear", "cherry"];
-    var user = arr.indexOf;
-    console.log(user);
-}
+const arr = ["banana", "apples", "pear", "cherry"];
+let counter = 0
 
-chooseFruit();
+for (let i = 0; i < 4; i++) {
+    const fruitNumber = prompt("Choose a number between 0-3");
+    console.log(arr[fruitNumber]);
+}
